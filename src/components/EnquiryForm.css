@@ -1,0 +1,124 @@
+.enquiry-container {
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .enquiry-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+  
+  .enquiry-form {
+    display: flex;
+    justify-content: space-between;
+    max-width: 630px;
+    margin: 0 auto;
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+  }
+  
+  /* Form sections */
+  .form-left,
+  .form-right {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .form-left input,
+  .form-right textarea {
+    width: 250px;
+    padding: 23px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  .form-right textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  .send-button {
+    padding: 10px 15px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 13px;
+  }
+  
+  .send-button:hover {
+    background-color: #bfeff9;
+  }
+  
+  .send-button span {
+    font-size: 18px;
+  }
+  
+  /* 📱 Responsive Design */
+  @media (max-width: 768px) {
+    .enquiry-form {
+      flex-direction: column;
+      align-items: center;
+      padding: 30px;
+      max-width: 90%;
+    }
+  
+    .form-left,
+    .form-right {
+      width: 100%;
+      align-items: center;
+    }
+  
+    .form-left input,
+    .form-right textarea {
+      width: 100%;
+      max-width: 400px;
+      padding: 18px;
+    }
+  
+    .send-button {
+      width: 100%;
+      max-width: 200px;
+      font-size: 16px;
+      padding: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .enquiry-container {
+      padding: 20px;
+    }
+  
+    .enquiry-title {
+      font-size: 28px;
+    }
+  
+    .enquiry-form {
+      padding: 20px;
+    }
+  
+    .form-left input,
+    .form-right textarea {
+      padding: 16px;
+      font-size: 14px;
+    }
+  
+    .send-button {
+      padding: 10px;
+      font-size: 14px;
+    }
+  }
+  
