@@ -8,7 +8,7 @@ const AboutUsPage = () => {
 
   return (
     <div className="aboutus-container">
-      <button className="back-btn" onClick={() => navigate(-1)}>←  YSK Trading</button>
+      <button className="back-btn" onClick={() => navigate(-1)}><i class="bi bi-arrow-left"></i> YSK Trading</button>
       <div className="aboutus-content">
         <div className="aboutus-text">
           <p>

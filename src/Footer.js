@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "./Footer.css"; // Import the CSS file
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import logo from "./Assert/logo.png"; // Ensure the path is correct
@@ -21,11 +23,11 @@ const Footer = () => {
         {/* Right Section - Navigation Links */}
         <div className="footer-right">
           <ul className="footer-links">
-            <li>Home</li>
-            <li>About</li>
-            <li>Products</li>
-            <li>Terms & Conditions</li>
-            <li>Refund Policy</li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/all-products">Products</Link></li>
+            <li><Link to="/">Terms & Conditions</Link></li>
+            <li><Link to="/">Refund Policy</Link></li>
           </ul>
         </div>
       </div>

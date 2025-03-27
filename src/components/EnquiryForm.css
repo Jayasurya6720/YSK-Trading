@@ -42,6 +42,7 @@
   .form-right textarea {
     height: 100px;
     resize: none;
+    
   }
   
   .send-button {
@@ -106,8 +107,8 @@
       font-size: 28px;
     }
   
-    .enquiry-form {
-      padding: 20px;
+    .form-right textarea {
+      margin-top: 30px;
     }
   
     .form-left input,

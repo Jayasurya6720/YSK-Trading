@@ -2,11 +2,15 @@ import React from "react";
 import "./Home.css";
 import AboutUs from "./AboutUs";
 import Products from "./Products";
+import { useNavigate } from "react-router-dom";
+
 
 import EnquiryForm from "./EnquiryForm";
-import Footer from "../Footer";
+
 
 const Home = () => {
+    const navigate = useNavigate();
+  
   return (
     <div className="container">
       {/* Hero Section */}
@@ -22,7 +26,7 @@ const Home = () => {
             Pneumatic. From power tools to welding machines, we empower
             professionals and enthusiasts to create, innovate, and succeed.
           </p>
-          <button className="explore-btn">Explore Our Products</button>
+          <button className="explore-btn" onClick={() => navigate("/all-products")}>Explore Our Products</button>
         </div>
       </header>
 

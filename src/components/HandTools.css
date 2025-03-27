@@ -47,7 +47,10 @@
   height: 150px;  /* Increased size */
   object-fit: cover;
   border-radius: 10px;
+  background-color: white;
 }
+
+
 
 .tool-name {
   font-size: 16px;  /* Slightly larger */
@@ -146,6 +149,9 @@
 
 /* Responsive: Adjust layout for smaller screens */
 @media (max-width: 768px) {
+  .tools-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns in mobile view */
+  }
   .brands-container {
     gap: 10px;
     padding: 15px;
@@ -157,6 +163,9 @@
 }
 
 @media (max-width: 480px) {
+  .tools-grid {
+    grid-template-columns: repeat(2, 1fr); /* Maintain 2 columns in smaller screens */
+  }
   .brands-container {
     justify-content: center;
   }

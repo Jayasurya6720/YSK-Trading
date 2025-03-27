@@ -102,8 +102,9 @@
     }
   
     .about-image img {
-      width: 100%;
-      max-width: 350px;
+      display: none;
+      /* width: 100%;
+      max-width: 350px; */
     }
   }
   

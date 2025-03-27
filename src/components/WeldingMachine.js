@@ -40,7 +40,7 @@ const WeldingMachine = () => {
 
   return (
     <div className="hand-tools-page">
-      <button className="back-btn" onClick={() => navigate(-1)}><h3>← Welding Machine</h3></button>
+      <button className="back-btn" onClick={() => navigate(-1)}><h3><i class="bi bi-arrow-left"></i> Welding Machine</h3></button>
       <p className="description">
         Reliable and durable, our hand tools are designed for precision and ease of use. 
         From wrenches to screwdrivers, pliers to hammers, we provide high-quality tools 

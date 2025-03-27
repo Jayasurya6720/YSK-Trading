@@ -53,8 +53,8 @@
   /* Responsive */
   @media (max-width: 768px) {
     .aboutus-content {
-      flex-direction: column;
-      text-align: center;
+      flex-direction: column-reverse;
+      text-align: left;
     }
     
     .aboutus-image img {
