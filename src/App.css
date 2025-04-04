@@ -206,6 +206,8 @@ body {
   .nav-links {
     font-size: 14px;
     gap: 5px;
+    
+
   }
 
   .enquiry-btn {
@@ -247,7 +249,7 @@ body {
   color: black;
   cursor: pointer;
   font-size: 24px;
-  border-radius: 5px;
+  border: none; /* Remove borders */
   transition: background-color 0.3s, color 0.3s;
   }
   .menu-toggle:hover{
@@ -276,7 +278,7 @@ body {
 
   .nav-links li {
     padding: 10px;
-    border-bottom: 1px solid #ddd; /* Add spacing between items */
+     /* Add spacing between items */
   }
 
   .nav-links li:last-child {
@@ -287,5 +289,6 @@ body {
     display: block;
     width: 100%;
     padding: 10px 0;
+    font-size: 14px;
   }
 }

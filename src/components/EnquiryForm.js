@@ -1,8 +1,15 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./EnquiryForm.css"; // Import the CSS file
+import { useLocation } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
-const EnquiryForm = () => {
+
+const EnquiryForm = ({ title }) => {
+    const navigate = useNavigate();
+    const location = useLocation();
+const isContactPage = location.pathname === "/enquiry";
+  
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -37,7 +44,13 @@ const EnquiryForm = () => {
 
   return (
     <div className="enquiry-container">
-      <h2 className="enquiry-title">For Enquiry</h2>
+      
+     
+      <h2 className="enquiry-title">{isContactPage ? <button className="back-btn" onClick={() => navigate(-1)}>
+        <h2 className="contant"><i className="bi bi-arrow-left"></i> Contact Us</h2>
+      </button>: "For Enquiry"}</h2>
+
+
       <form className="enquiry-form" onSubmit={handleSubmit}>
         <div className="form-left">
           <input

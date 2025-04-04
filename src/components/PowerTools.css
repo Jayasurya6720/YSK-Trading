@@ -156,6 +156,9 @@
 }
 
 @media (max-width: 480px) {
+  .tools-grid {
+    grid-template-columns: repeat(2, 1fr); /* Maintain 2 columns in smaller screens */
+  }
   .brands-container {
     justify-content: center;
   }

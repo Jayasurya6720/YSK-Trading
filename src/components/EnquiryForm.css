@@ -1,6 +1,7 @@
 .enquiry-container {
     text-align: center;
     padding: 30px;
+    justify-items: center;
   }
   
   .enquiry-title {
@@ -8,7 +9,14 @@
     font-weight: bold;
     margin-bottom: 25px;
   }
-  
+  .contant{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: center;  /* Ensures text is centered */
+    width: 100%;  /* Helps maintain alignment */
+    display: block; /* Ensures proper text alignment */
+  }
   .enquiry-form {
     display: flex;
     justify-content: space-between;

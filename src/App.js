@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 
 import Home from "./components/Home";
+import ScrollToTop from "./ScrollToTop";
 import Products from "./components/Products";
 import AboutUsPage from "./components/AboutUsPage ";
 import EnquiryForm from "./components/EnquiryForm";
@@ -12,12 +13,18 @@ import AllProducts from "./components/AllProduct";
 import HandTools from "./components/HandTools";
 import PowerTools from "./components/PowerTools";
 import WeldingMachine from "./components/WeldingMachine";
+import Tools from "./components/Tools";
+import Welding from './components/Welding';
+import Safety from "./components/Safety";
+import IndustrialSpecialProduct from "./components/Industrial-Special-Product";
 
 const App = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+      
 
   return (
     <Router>
+        <ScrollToTop /> 
       <div className="container">
         {/* Navbar Section */}
         <nav className="navbar">
@@ -33,7 +40,7 @@ const App = () => {
           <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
             <li><Link to="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
             <li><Link to="/about" onClick={() => setMenuOpen(false)}>About</Link></li>
-            <li><Link to="/all-products" onClick={() => setMenuOpen(false)}>Categories</Link></li>
+            <li><Link to="/products" onClick={() => setMenuOpen(false)}>Categories</Link></li>
             <li className="enquiry-btn2"><Link to="/enquiry" onClick={() => setMenuOpen(false)}>Contact</Link></li>
            
           </ul>
@@ -48,11 +55,18 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUsPage />} />
           <Route path="/products" element={<Products />} />
-          <Route path="/enquiry" element={<EnquiryForm />} />
+          <Route path="/enquiry" element={<EnquiryForm title="Contact Us" />} />
           <Route path="/all-products" element={<AllProducts />} />
           <Route path="/handtools" element={<HandTools />} />
+          <Route path="/Tools" element={<Tools />} />
+          <Route path="/Welding" element={<Welding />} />
+          <Route path="/Safety" element={<Safety />} />
+
+
+
           <Route path="/hard-tools" element={<PowerTools />} />
           <Route path="/welding-machine" element={<WeldingMachine />} />
+          <Route path="/industrial-products" element={<IndustrialSpecialProduct/>}/>
         </Routes>
 
         <Footer />

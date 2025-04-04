@@ -1,31 +1,27 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./WeldingMachine.css";
+import "./Industrial-Special-Product.css";
 
-import toshonst from "../Assert/welding machines/toshon-250-st.png";
-import toshonNano from "../Assert/welding machines/toshon-arc-200-nano.jpg";
-import toshonArc200 from "../Assert/welding machines/toshon-arc-200.png";
-import toshonarc200n from "../Assert/welding machines/toshon-arc-200n.jpg";
-import toshonarc3003phaseIGBTls from "../Assert/welding machines/toshon-arc-300-3phase- IGBT .png";
-import toshonarc300 from "../Assert/welding machines/toshon-arc-300.jpg";
-import toshonarc400 from "../Assert/welding machines/toshon-arc-400.jpg";
-import toshonarc630 from "../Assert/welding machines/toshon-arc-630.jpg";
-import toshonare300 from "../Assert/welding machines/toshon-are-300.png";
+import chainsprocket from "../Assert/Industrial Special Product/chains-sprocket.png";
+import hydraulichoses from "../Assert/Industrial Special Product/hydraulic-hoses.jpg";
+import packingrope from "../Assert/Industrial Special Product/packing-rope.jpg";
+import packingsheet from "../Assert/Industrial Special Product/packing-sheet.png";
+import puhose from "../Assert/Industrial Special Product/pu-hose.png";
+import sshose from "../Assert/Industrial Special Product/ss-hose.png";
+
 import stanleyLogo from "../Assert/stanley.png";
 import kingtonyLogo from "../Assert/kingtony.png";
 import tapariaLogo from "../Assert/taparia.png";
 import pyeLogo from "../Assert/pye.png";
 
 const products = [
-  { name: "Toshon-250-St", image: toshonst },
-  { name: "Toshon-Arc-200-Nano", image: toshonNano },
-  { name: "Toshon-Arc-200", image: toshonArc200},
-  { name: "Toshon-Arc-200n", image: toshonarc200n },
-  { name: "Toshon-Arc-300-3Phase- IGBT ", image: toshonarc3003phaseIGBTls },
-  { name: "Toshon-Arc-300", image: toshonarc300 },
-  { name: "Toshon-Arc-400", image: toshonarc400 },
-  { name: "Toshon-Arc-630", image: toshonarc630 },
-  { name: "Toshon-Are-300", image: toshonare300 },
+  { name: "Chain-Sprocket", image: chainsprocket },
+  { name: "Hydraulic-Hoses", image: hydraulichoses },
+  { name: "Packing-Rope", image: packingrope},
+  { name: "Packing-Sheet", image: packingsheet},
+  { name: "Pu-Hose ", image: puhose },
+  { name: "SS-Hose", image: sshose },
+  
 ];
 
 const brands = [
@@ -40,7 +36,7 @@ const WeldingMachine = () => {
 
   return (
     <div className="hand-tools-page">
-      <button className="back-btn" onClick={() => navigate(-1)}><h3><i class="bi bi-arrow-left"></i> Welding Machine</h3></button>
+      <button className="back-btn" onClick={() => navigate(-1)}><h3><i class="bi bi-arrow-left"></i> Industrial-Special-Product</h3></button>
       <p className="description">
         Reliable and durable, our hand tools are designed for precision and ease of use. 
         From wrenches to screwdrivers, pliers to hammers, we provide high-quality tools 

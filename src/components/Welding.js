@@ -1,18 +1,19 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./AllProduct.css";
+import "./Welding.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 
-import pneumatic from "../Assert/Pneumatic.png";
-import industrialProducts from "../Assert/Industrial-Special-Products.png";
-import abrasive from "../Assert/Abrasive.jfif";
+import weldingAccessories from "../Assert/Welding-Accessories.jfif";
+import weldingMachine from "../Assert/Welding-Machine.jfif";
+import weldingElectrode from "../Assert/Welding-Electrode.png";
 
 const allProducts = [
- 
-  { name: "Pneumatic", image: pneumatic, path: "/pneumatic" },
-  { name: "Industrial Special Products", image: industrialProducts, path: "/industrial-products" },
-  { name: "Abrasive", image: abrasive, path: "/abrasive" },
+  
+  { name: "Welding Accessories", image: weldingAccessories, path: "/welding-accessories" },
+  { name: "Welding Machine", image: weldingMachine, path: "/welding-machine" },
+  { name: "Welding Electrode", image: weldingElectrode, path: "/welding-electrode" },
+  
 ];
 
 const AllProducts = () => {
@@ -21,7 +22,7 @@ const AllProducts = () => {
   return (
     <div className="all-products-page">
       <button className="back-btn" onClick={() => navigate(-1)}>
-        <h3><i className="bi bi-arrow-left"></i> Other Products</h3>
+        <h3><i className="bi bi-arrow-left"></i> Welding</h3>
       </button>
       <div className="all-products-grid">
         {allProducts.map((product, index) => (

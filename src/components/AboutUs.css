@@ -110,7 +110,10 @@
   
   @media (max-width: 480px) {
     .about-container {
-      padding: 30px 15px;
+      padding-top: 30px;
+      padding-right: 15px;
+      padding-bottom: 0px;
+      padding-left: 15px;
     }
   
     .about-title {

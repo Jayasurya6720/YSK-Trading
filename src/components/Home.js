@@ -2,18 +2,17 @@ import React from "react";
 import "./Home.css";
 import AboutUs from "./AboutUs";
 import Products from "./Products";
-import { useNavigate } from "react-router-dom";
 
 
 import EnquiryForm from "./EnquiryForm";
 
 
 const Home = () => {
-    const navigate = useNavigate();
   
+
   return (
     <div className="container">
-      {/* Hero Section */}
+       {/* Hero Section */}
       <header className="hero">
         <div className="hero-content">
           <h1>
@@ -26,7 +25,12 @@ const Home = () => {
             Pneumatic. From power tools to welding machines, we empower
             professionals and enthusiasts to create, innovate, and succeed.
           </p>
-          <button className="explore-btn" onClick={() => navigate("/all-products")}>Explore Our Products</button>
+          <button className="explore-btn" onClick={() => {
+            const section = document.getElementById("products-section");
+            if (section) {
+              section.scrollIntoView({ behavior: "smooth" }); // Smooth scroll effect
+            }
+          }}>Explore Our Products</button>
         </div>
       </header>
 
@@ -34,11 +38,15 @@ const Home = () => {
       <AboutUs />
 
       {/* Products Section */}
-      <Products />
-
-      <EnquiryForm />
+       {/* Products Section */}
+       <div id="products-section">
+        <Products />
+      </div>
 
       
+
+      <EnquiryForm title="For Enquiry" />
+
     </div>
   );
 };

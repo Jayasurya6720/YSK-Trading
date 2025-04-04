@@ -1,18 +1,15 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./AllProduct.css";
+import "./Safety.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
+import safety from "../Assert/Safety.jfif";
 
-import pneumatic from "../Assert/Pneumatic.png";
-import industrialProducts from "../Assert/Industrial-Special-Products.png";
-import abrasive from "../Assert/Abrasive.jfif";
 
 const allProducts = [
  
-  { name: "Pneumatic", image: pneumatic, path: "/pneumatic" },
-  { name: "Industrial Special Products", image: industrialProducts, path: "/industrial-products" },
-  { name: "Abrasive", image: abrasive, path: "/abrasive" },
+  { name: "Safety", image: safety, path: "/safety" },
+
 ];
 
 const AllProducts = () => {
@@ -21,7 +18,7 @@ const AllProducts = () => {
   return (
     <div className="all-products-page">
       <button className="back-btn" onClick={() => navigate(-1)}>
-        <h3><i className="bi bi-arrow-left"></i> Other Products</h3>
+        <h3><i className="bi bi-arrow-left"></i> Safety</h3>
       </button>
       <div className="all-products-grid">
         {allProducts.map((product, index) => (

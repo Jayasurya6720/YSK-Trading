@@ -1,12 +1,24 @@
 .products-container {
   text-align: center;
-  padding: 40px;
+  padding-top: 0px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
   background-color: #f8f8f8;
+  justify-items: center;
 }
 
 .products-container h2 {
   font-size: 32px;
   margin-bottom: 25px;
+}
+.contant{
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  text-align: center;  /* Ensures text is centered */
+  width: 100%;  /* Helps maintain alignment */
+  display: block; /* Ensures proper text alignment */
 }
 
 .products-grid {
@@ -32,7 +44,12 @@
   }
   
   .products-container {
-      padding: 20px; /* Reduce padding for small screens */
+  
+    padding-top: 0px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px
+
   }
 
   .products-container h2 {
