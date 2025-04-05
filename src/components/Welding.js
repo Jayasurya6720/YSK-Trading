@@ -5,7 +5,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 
 import weldingAccessories from "../Assert/Welding-Accessories.jfif";
-import weldingMachine from "../Assert/Welding-Machine.jfif";
+import weldingMachine from "../Assert/welding-machine-tumb.jpg";
 import weldingElectrode from "../Assert/Welding-Electrode.png";
 
 const allProducts = [

@@ -17,6 +17,15 @@ import Tools from "./components/Tools";
 import Welding from './components/Welding';
 import Safety from "./components/Safety";
 import IndustrialSpecialProduct from "./components/Industrial-Special-Product";
+import MeasuringTools from "./components/Measuring Tools";
+import MechineTools from "./components/Machine Tools";
+import WeldingAccessories from "./components/Welding Accessories";
+import Pneumatic from "./components/Pneumatic";
+import Abrasive from "./components/Abrasive";
+import WeldingElectrode from "./components/Welding Electrode";
+import TermsConditions from "./components/Terms & Conditions";
+import RefundPolicy from "./components/Refund Policy";
+
 
 const App = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -64,9 +73,17 @@ const App = () => {
 
 
 
-          <Route path="/hard-tools" element={<PowerTools />} />
+          <Route path="/power-tools" element={<PowerTools />} />
           <Route path="/welding-machine" element={<WeldingMachine />} />
           <Route path="/industrial-products" element={<IndustrialSpecialProduct/>}/>
+          <Route path="/measuring-tools" element={<MeasuringTools/>}/>
+          <Route path="/machine-tools" element={<MechineTools/>}/>
+          <Route path="/welding-accessories" element={<WeldingAccessories/>}/>
+          <Route path="/pneumatic" element={<Pneumatic />}/>
+          <Route path="/abrasive" element={<Abrasive/>}/>
+          <Route path="/welding-electrode" element={<WeldingElectrode/>}/>
+          <Route path="/termsconditions" element={<TermsConditions/>}/>
+          <Route path="/refund-policy" element={<RefundPolicy/>}/>
         </Routes>
 
         <Footer />

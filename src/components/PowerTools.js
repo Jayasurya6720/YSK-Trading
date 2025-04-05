@@ -2,30 +2,47 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./PowerTools.css";
 
-import wrenches from "../Assert/wrenches.png";
-import hammers from "../Assert/hammers.jfif";
-import screwdrivers from "../Assert/screwdrivers.jfif";
-import pliers from "../Assert/pliers.png";
-import chisels from "../Assert/chisels.png";
-import trowels from "../Assert/trowels.png";
-import clamps from "../Assert/clamps.png";
-import filesRasps from "../Assert/files-rasps.png";
-import utilityKnife from "../Assert/utility-knife.png";
+import anglemeachine from "../Assert/Power tools/7_angle-meachine.png";
+import cutting from "../Assert/Power tools/14_cutting.png";
+import wattpneumaticdrill from "../Assert/Power tools/320-watt-pneumatic-drill.png";
+import airblowermeachine from "../Assert/Power tools/air-blower-meachine.png";
+import aircompressermeachine from "../Assert/Power tools/air-compresser-meachine.jpg";
+import beddrillmeachine from "../Assert/Power tools/bed-drill-meachine.png";
+import dewaltcutting from "../Assert/Power tools/dewalt-4_-cutting.jpg";
+import jigsawmeachine from "../Assert/Power tools/jigsaw-meachine.png";
+import mebreakermeachine from "../Assert/Power tools/m-e-breaker-meachine.png";
+import magnetdrillmeachine from "../Assert/Power tools/magnet-drill-meachine.png";
+import marblecuttermeachine from "../Assert/Power tools/marble-cutter-meachine.png";
+import mitersawmeachine from "../Assert/Power tools/miter-saw-meachine.png";
+import plannermeachine from "../Assert/Power tools/planner-meachine.png";
+import rotaryhemmermeachine from "../Assert/Power tools/rotary-hemmer-meachine.png";
+import routerendicomeachine from "../Assert/Power tools/router-endico-meachine.png";
+
+
+
+
 import stanleyLogo from "../Assert/stanley.png";
 import kingtonyLogo from "../Assert/kingtony.png";
 import tapariaLogo from "../Assert/taparia.png";
 import pyeLogo from "../Assert/pye.png";
 
 const products = [
-  { name: "Wrenches", image: wrenches },
-  { name: "Hammers", image: hammers },
-  { name: "Screwdrivers", image: screwdrivers },
-  { name: "Pliers", image: pliers },
-  { name: "Chisels", image: chisels },
-  { name: "Trowels", image: trowels },
-  { name: "Clamps", image: clamps },
-  { name: "Files & Rasps", image: filesRasps },
-  { name: "Utility Knife", image: utilityKnife },
+  { name: "7 Angle Meachine", image: anglemeachine },
+  { name: "14_cutting", image: cutting },
+  { name: "320 Watt Pneumatic Drill", image: wattpneumaticdrill },
+  { name: "Air Blower Meachine", image: airblowermeachine },
+  { name: "Air Compresser Meachine", image: aircompressermeachine },
+  { name: "beddrillmeachine", image: beddrillmeachine },
+  { name: "Dewalt 4_ Cutting", image: dewaltcutting },
+  { name: "Jigsaw Meachine", image: jigsawmeachine },
+  { name: "M E Breaker Meachine", image: mebreakermeachine },
+  { name: "Magnet Drill Meachine", image: magnetdrillmeachine },
+  { name: "Marble Cutter Meachine", image: marblecuttermeachine },
+  { name: "Miter Saw Meachine", image: mitersawmeachine },
+  { name: "Planner Meachine", image: plannermeachine },
+  { name: "Rotary Hemmer Meachine", image: rotaryhemmermeachine },
+  { name: "Router Endico Meachine", image: routerendicomeachine },
+
 ];
 
 const brands = [
@@ -57,7 +74,7 @@ const PowerTools = () => {
         ))}
       </div>
 
-      <h3 className="brands-title">Our Brands:</h3>
+      <h3 className="brands-title">Our Dealers:</h3>
       <div className="brands-container">
         {brands.map((brand, index) => (
           <img key={index} src={brand.image} alt={brand.alt} className="brand-logo" />

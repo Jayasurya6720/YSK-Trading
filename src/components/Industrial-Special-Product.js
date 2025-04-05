@@ -53,7 +53,7 @@ const WeldingMachine = () => {
         ))}
       </div>
 
-      <h3 className="brands-title">Our Brands:</h3>
+      <h3 className="brands-title">Our Dealers:</h3>
       <div className="brands-container">
         {brands.map((brand, index) => (
           <img key={index} src={brand.image} alt={brand.alt} className="brand-logo" />
