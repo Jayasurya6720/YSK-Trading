@@ -19,10 +19,10 @@ import safetyshoes from "../Assert/Safety equipements/safety-shoes.png";
 
 
 
-import stanleyLogo from "../Assert/stanley.png";
-import kingtonyLogo from "../Assert/kingtony.png";
-import tapariaLogo from "../Assert/taparia.png";
-import pyeLogo from "../Assert/pye.png";
+import mlogo from "../Assert/Safety Logo/3m-logo.png";
+import hillsonlogo from "../Assert/Safety Logo/hillson-logo.png";
+import karamlogo from "../Assert/Safety Logo/karam-logo.png";
+import stanlylogo from "../Assert/Safety Logo/stanly-logo.png";
 
 const products = [
   { name: "Cotton Glove", image: cottonglove },
@@ -43,10 +43,10 @@ const products = [
 ];
 
 const brands = [
-  { image: stanleyLogo, alt: "Stanley" },
-  { image: kingtonyLogo, alt: "King Tony" },
-  { image: tapariaLogo, alt: "Taparia" },
-  { image: pyeLogo, alt: "PYE Hand Tools" },
+  { image: mlogo, alt: "mlogo" },
+  { image: hillsonlogo, alt: "hillsonlogo" },
+  { image: karamlogo, alt: "karamlogo" },
+  { image: stanlylogo, alt: "stanlylogo" },
 ];
 
 const Safety = () => {

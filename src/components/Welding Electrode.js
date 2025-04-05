@@ -16,10 +16,8 @@ import superoptimal7018 from "../Assert/Welding Electrode/super-optimal-7018.png
 import superpowercut from "../Assert/Welding Electrode/super-power-cut.png";
 
 
-import stanleyLogo from "../Assert/stanley.png";
-import kingtonyLogo from "../Assert/kingtony.png";
-import tapariaLogo from "../Assert/taparia.png";
-import pyeLogo from "../Assert/pye.png";
+import bestarclogo from "../Assert/Welding Electrode Logo/bestarc-logo.png";
+import superonlogo from "../Assert/Welding Electrode Logo/superon-logo.png";
 
 const products = [
   
@@ -42,10 +40,9 @@ const products = [
 ];
 
 const brands = [
-  { image: stanleyLogo, alt: "Stanley" },
-  { image: kingtonyLogo, alt: "King Tony" },
-  { image: tapariaLogo, alt: "Taparia" },
-  { image: pyeLogo, alt: "PYE Hand Tools" },
+  { image: bestarclogo, alt: "bestarclogo" },
+  { image: superonlogo, alt: "superonlogo" },
+
 ];
 
 const WeldingMachine = () => {

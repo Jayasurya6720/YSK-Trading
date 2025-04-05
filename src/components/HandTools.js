@@ -3,11 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "./HandTools.css";
 
 import adjustablewrench from "../Assert/Hand tools/adjustable-wrench.png";
-import bucketgreasegunheavy from "../Assert/Hand tools/bucket-grease-gun-heavy2.png";
-import cuttingplayer from "../Assert/Hand tools/cutting-player.png";
 import doublehansspanners from "../Assert/Hand tools/double-hans-spanners.jpg";
-import greasegun from "../Assert/Hand tools/grease-gun.jpg";
-import noseplayer from "../Assert/Hand tools/nose-player.jpg";
 import pipewrench from "../Assert/Hand tools/pipe-wrench.png";
 import rindsapnners from "../Assert/Hand tools/rind-sapnners.png";
 import screwdrivers from "../Assert/Hand tools/screw-drivers.png";
@@ -15,6 +11,12 @@ import sockethandles from "../Assert/Hand tools/socket-handles.png";
 import starbit from "../Assert/Hand tools/star-bit .jpg";
 import thandlepanner from "../Assert/Hand tools/t-handle-panner.png";
 import toolsboxset from "../Assert/Hand tools/tools-box-set.png";
+import chisel from "../Assert/Hand tools/chisel.jpg";
+import hammesandmallets from "../Assert/Hand tools/hammes-and-mallets.png";
+import handfilesset from "../Assert/Hand tools/hand-files-set.png";
+import pilersandcutters from "../Assert/Hand tools/pilers-and-cutters.jpg";
+import visesandclamps from "../Assert/Hand tools/vises and clamps.jpg";
+
 
 import stanleyLogo from "../Assert/stanley.png";
 import kingtonyLogo from "../Assert/kingtony.png";
@@ -23,18 +25,21 @@ import pyeLogo from "../Assert/pye.png";
 
 const products = [
   { name: "Adjustable wrench", image: adjustablewrench },
-  { name: "Bucket Grease Gun Heavy", image: bucketgreasegunheavy },
-  { name: "Cutting Player", image: cuttingplayer },
-  { name: "Double Hans Spanners", image: doublehansspanners },
-  { name: "Grease Gun", image: greasegun },
-  { name: "Nose Player", image: noseplayer },
+  { name: "Double End Spanners", image: doublehansspanners },
   { name: "Pipe Wrench", image: pipewrench },
-  { name: "Rind Sapnners", image: rindsapnners },
+  { name: "Ring Sapnners", image: rindsapnners },
   { name: "Screw Drivers", image: screwdrivers },
   { name: "Socket Handles", image: sockethandles },
   { name: "Star Bit", image: starbit },
   { name: "T Handle Panner", image: thandlepanner },
   { name: "Tools Box Set", image: toolsboxset },
+  
+  { name: "Chisel", image: chisel },
+  { name: "Hammes And Mallets", image: hammesandmallets },
+  { name: "Hand Files Set", image: handfilesset },
+  { name: "Pilers And Cutters", image: pilersandcutters },
+  { name: "Vises And Clamps", image: visesandclamps },
+
 
 
 ];

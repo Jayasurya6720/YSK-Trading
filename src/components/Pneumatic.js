@@ -23,10 +23,9 @@ import Tubecutter from "../Assert/Pneumatic/Tube-cutter.jpg";
 
 
 
-import stanleyLogo from "../Assert/stanley.png";
-import kingtonyLogo from "../Assert/kingtony.png";
-import tapariaLogo from "../Assert/taparia.png";
-import pyeLogo from "../Assert/pye.png";
+import janaticslogo from "../Assert/Pneumatic Logo/janatics logo.png";
+import technologo from "../Assert/Pneumatic Logo/techno-logo2.png";
+
 
 const products = [
   { name: "Air Filter", image: Airfilter },
@@ -51,10 +50,9 @@ const products = [
 ];
 
 const brands = [
-  { image: stanleyLogo, alt: "Stanley" },
-  { image: kingtonyLogo, alt: "King Tony" },
-  { image: tapariaLogo, alt: "Taparia" },
-  { image: pyeLogo, alt: "PYE Hand Tools" },
+  { image: janaticslogo, alt: "janaticslogo" },
+  { image: technologo, alt: "technologo" },
+
 ];
 
 const WeldingMachine = () => {

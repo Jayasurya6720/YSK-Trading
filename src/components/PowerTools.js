@@ -4,52 +4,53 @@ import "./PowerTools.css";
 
 import anglemeachine from "../Assert/Power tools/7_angle-meachine.png";
 import cutting from "../Assert/Power tools/14_cutting.png";
-import wattpneumaticdrill from "../Assert/Power tools/320-watt-pneumatic-drill.png";
 import airblowermeachine from "../Assert/Power tools/air-blower-meachine.png";
-import aircompressermeachine from "../Assert/Power tools/air-compresser-meachine.jpg";
-import beddrillmeachine from "../Assert/Power tools/bed-drill-meachine.png";
-import dewaltcutting from "../Assert/Power tools/dewalt-4_-cutting.jpg";
+
 import jigsawmeachine from "../Assert/Power tools/jigsaw-meachine.png";
 import mebreakermeachine from "../Assert/Power tools/m-e-breaker-meachine.png";
 import magnetdrillmeachine from "../Assert/Power tools/magnet-drill-meachine.png";
 import marblecuttermeachine from "../Assert/Power tools/marble-cutter-meachine.png";
-import mitersawmeachine from "../Assert/Power tools/miter-saw-meachine.png";
+import mitersawmeachine from "../Assert/Power tools/miter-saw-machine2.png";
 import plannermeachine from "../Assert/Power tools/planner-meachine.png";
 import rotaryhemmermeachine from "../Assert/Power tools/rotary-hemmer-meachine.png";
 import routerendicomeachine from "../Assert/Power tools/router-endico-meachine.png";
+import benchgrinder from "../Assert/Power tools/bench-grinder.jpeg";
 
 
 
 
-import stanleyLogo from "../Assert/stanley.png";
-import kingtonyLogo from "../Assert/kingtony.png";
-import tapariaLogo from "../Assert/taparia.png";
-import pyeLogo from "../Assert/pye.png";
+
+import boschlogo from "../Assert/Power tools logo/bosch-logo.png";
+import DeWaltlogo from "../Assert/Power tools logo/DeWalt logo.png";
+import hikokilogo from "../Assert/Power tools logo/hikoki-logo.png";
+import hitachilogo from "../Assert/Power tools logo/hitachi-logo.png";
+import makitalogo from "../Assert/Power tools logo/makita-logo.png";
+
 
 const products = [
-  { name: "7 Angle Meachine", image: anglemeachine },
-  { name: "14_cutting", image: cutting },
-  { name: "320 Watt Pneumatic Drill", image: wattpneumaticdrill },
-  { name: "Air Blower Meachine", image: airblowermeachine },
-  { name: "Air Compresser Meachine", image: aircompressermeachine },
-  { name: "beddrillmeachine", image: beddrillmeachine },
-  { name: "Dewalt 4_ Cutting", image: dewaltcutting },
-  { name: "Jigsaw Meachine", image: jigsawmeachine },
-  { name: "M E Breaker Meachine", image: mebreakermeachine },
-  { name: "Magnet Drill Meachine", image: magnetdrillmeachine },
-  { name: "Marble Cutter Meachine", image: marblecuttermeachine },
-  { name: "Miter Saw Meachine", image: mitersawmeachine },
-  { name: "Planner Meachine", image: plannermeachine },
-  { name: "Rotary Hemmer Meachine", image: rotaryhemmermeachine },
-  { name: "Router Endico Meachine", image: routerendicomeachine },
+  { name: "Angle Grinder", image: anglemeachine },
+  { name: "Chopsaw", image: cutting },
+  { name: "Air Blower Machine", image: airblowermeachine },
+  
+  { name: "Jigsaw Machine", image: jigsawmeachine },
+  { name: "M E Breaker Machine", image: mebreakermeachine },
+  { name: "Magnet Drill Machine", image: magnetdrillmeachine },
+  { name: "Marble Cutter Machine", image: marblecuttermeachine },
+  { name: "Miter Saw Machine", image: mitersawmeachine },
+  { name: "Planner Machine", image: plannermeachine },
+  { name: "Hand Drill Machine", image: rotaryhemmermeachine },
+  { name: "Router Endico Machine", image: routerendicomeachine },
+  { name: "Bench Grinder", image: benchgrinder },
 
 ];
 
 const brands = [
-  { image: stanleyLogo, alt: "Stanley" },
-  { image: kingtonyLogo, alt: "King Tony" },
-  { image: tapariaLogo, alt: "Taparia" },
-  { image: pyeLogo, alt: "PYE Hand Tools" },
+  { image: boschlogo, alt: "boschlogo" },
+  { image: DeWaltlogo, alt: "DeWaltlogo" },
+  { image: hikokilogo, alt: "hikokilogo" },
+  { image: hitachilogo, alt: "hitachilogo" },
+  { image: makitalogo, alt: "makitalogo" },
+
 ];
 
 const PowerTools = () => {

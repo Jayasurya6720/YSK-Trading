@@ -11,10 +11,10 @@ import toshonarc300 from "../Assert/welding machines/toshon-arc-300.jpg";
 import toshonarc400 from "../Assert/welding machines/toshon-arc-400.jpg";
 import toshonarc630 from "../Assert/welding machines/toshon-arc-630.jpg";
 import toshonare300 from "../Assert/welding machines/toshon-are-300.png";
-import stanleyLogo from "../Assert/stanley.png";
-import kingtonyLogo from "../Assert/kingtony.png";
-import tapariaLogo from "../Assert/taparia.png";
-import pyeLogo from "../Assert/pye.png";
+
+
+import toshonlogo from "../Assert/welding meachine logo/toshon-logo.png";
+
 
 const products = [
   { name: "Toshon-250-St", image: toshonst },
@@ -29,10 +29,8 @@ const products = [
 ];
 
 const brands = [
-  { image: stanleyLogo, alt: "Stanley" },
-  { image: kingtonyLogo, alt: "King Tony" },
-  { image: tapariaLogo, alt: "Taparia" },
-  { image: pyeLogo, alt: "PYE Hand Tools" },
+  { image: toshonlogo, alt: "toshonlogo" },
+ 
 ];
 
 const WeldingMachine = () => {

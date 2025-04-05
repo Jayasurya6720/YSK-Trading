@@ -47,6 +47,7 @@
   height: 150px;  /* Increased size */
   object-fit: contain;
   border-radius: 10px;
+  
 }
 
 .tool-name {

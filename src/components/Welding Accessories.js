@@ -21,10 +21,9 @@ import weldingtorch from "../Assert/welding accessories/welding-torch.png";
 
 
 
-import stanleyLogo from "../Assert/stanley.png";
-import kingtonyLogo from "../Assert/kingtony.png";
-import tapariaLogo from "../Assert/taparia.png";
-import pyeLogo from "../Assert/pye.png";
+import Arconlogo from "../Assert/Welding Accessories Logo/Arcon-logo.png";
+import Ashaweldlogo from "../Assert/Welding Accessories Logo/Ashaweld-logo.png";
+
 
 const products = [
   { name: "Cable Connector", image: cableconnector },
@@ -47,10 +46,9 @@ const products = [
 ];
 
 const brands = [
-  { image: stanleyLogo, alt: "Stanley" },
-  { image: kingtonyLogo, alt: "King Tony" },
-  { image: tapariaLogo, alt: "Taparia" },
-  { image: pyeLogo, alt: "PYE Hand Tools" },
+  { image: Arconlogo, alt: "Arconlogo" },
+  { image: Ashaweldlogo, alt: "Ashaweldlogo" },
+ 
 ];
 
 const WeldingMachine = () => {

@@ -27,10 +27,9 @@ import verticaldialtestindicator from "../Assert/Measuring Tools/vertical-dial-t
 
 
 
-import stanleyLogo from "../Assert/stanley.png";
-import kingtonyLogo from "../Assert/kingtony.png";
-import tapariaLogo from "../Assert/taparia.png";
-import pyeLogo from "../Assert/pye.png";
+import Kencylogo from "../Assert/Measuring Tools logo/Kency-logo.png";
+import Mitutoyologo from "../Assert/Measuring Tools logo/Mitutoyo logo.png";
+import yamayologo from "../Assert/Measuring Tools logo/yamayo logo.png";
 
 const products = [
   { name: "Anemometer", image: anemometer },
@@ -59,10 +58,9 @@ const products = [
 ];
 
 const brands = [
-  { image: stanleyLogo, alt: "Stanley" },
-  { image: kingtonyLogo, alt: "King Tony" },
-  { image: tapariaLogo, alt: "Taparia" },
-  { image: pyeLogo, alt: "PYE Hand Tools" },
+  { image: Kencylogo, alt: "Kencylogo" },
+  { image: Mitutoyologo, alt: "Mitutoyologo" },
+  { image: yamayologo, alt: "yamayologo" },
 ];
 
 const MeasuringTools = () => {

@@ -9,10 +9,10 @@ import packingsheet from "../Assert/Industrial Special Product/packing-sheet.png
 import puhose from "../Assert/Industrial Special Product/pu-hose.png";
 import sshose from "../Assert/Industrial Special Product/ss-hose.png";
 
-import stanleyLogo from "../Assert/stanley.png";
-import kingtonyLogo from "../Assert/kingtony.png";
-import tapariaLogo from "../Assert/taparia.png";
-import pyeLogo from "../Assert/pye.png";
+// import stanleyLogo from "../Assert/stanley.png";
+// import kingtonyLogo from "../Assert/kingtony.png";
+// import tapariaLogo from "../Assert/taparia.png";
+// import pyeLogo from "../Assert/pye.png";
 
 const products = [
   { name: "Chain-Sprocket", image: chainsprocket },
@@ -24,19 +24,19 @@ const products = [
   
 ];
 
-const brands = [
-  { image: stanleyLogo, alt: "Stanley" },
-  { image: kingtonyLogo, alt: "King Tony" },
-  { image: tapariaLogo, alt: "Taparia" },
-  { image: pyeLogo, alt: "PYE Hand Tools" },
-];
+// const brands = [
+//   { image: stanleyLogo, alt: "Stanley" },
+//   { image: kingtonyLogo, alt: "King Tony" },
+//   { image: tapariaLogo, alt: "Taparia" },
+//   { image: pyeLogo, alt: "PYE Hand Tools" },
+// ];
 
 const WeldingMachine = () => {
   const navigate = useNavigate();
 
   return (
     <div className="hand-tools-page">
-      <button className="back-btn" onClick={() => navigate(-1)}><h3><i class="bi bi-arrow-left"></i> Industrial-Special-Product</h3></button>
+      <button className="back-btn" onClick={() => navigate(-1)}><h3><i class="bi bi-arrow-left"></i> Industrial Special Product</h3></button>
       <p className="description">
         Reliable and durable, our hand tools are designed for precision and ease of use. 
         From wrenches to screwdrivers, pliers to hammers, we provide high-quality tools 
@@ -53,12 +53,12 @@ const WeldingMachine = () => {
         ))}
       </div>
 
-      <h3 className="brands-title">Our Dealers:</h3>
+      {/* <h3 className="brands-title">Our Dealers:</h3>
       <div className="brands-container">
         {brands.map((brand, index) => (
           <img key={index} src={brand.image} alt={brand.alt} className="brand-logo" />
         ))}
-      </div>
+      </div> */}
 
       <div className="buttons-container">
         <button className="back-btn1" onClick={() => navigate(-1)}>Back</button>

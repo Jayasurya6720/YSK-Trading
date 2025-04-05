@@ -25,9 +25,9 @@ const isContactPage = location.pathname === "/enquiry";
     e.preventDefault();
 
     // EmailJS Service Details
-    const serviceID = "service_s3psc6v"; // Replace with your EmailJS Service ID
-    const templateID = "template_uv7cxn2"; // Replace with your EmailJS Template ID
-    const publicKey = "SelGdyC7T3Sp6eb_o"; // Replace with your EmailJS Public Key
+    const serviceID = "service_5a6mc8b"; // Replace with your EmailJS Service ID
+    const templateID = "template_qvbj7qc"; // Replace with your EmailJS Template ID
+    const publicKey = "v-81XYSKCx9Z-zArK"; // Replace with your EmailJS Public Key
 
     emailjs
       .send(serviceID, templateID, formData, publicKey)

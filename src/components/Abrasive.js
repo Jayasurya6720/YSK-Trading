@@ -23,10 +23,10 @@ import wallcuttingblade from "../Assert/Abrasive/wall-cutting-blade.jpg";
 
 
 
-import stanleyLogo from "../Assert/stanley.png";
-import kingtonyLogo from "../Assert/kingtony.png";
-import tapariaLogo from "../Assert/taparia.png";
-import pyeLogo from "../Assert/pye.png";
+import boschlogo from "../Assert/Abrasive Logo/bosch-logo.png";
+import cumilogo from "../Assert/Abrasive Logo/cumi-logo.png";
+import hitachilogo from "../Assert/Abrasive Logo/hitachi-logo.png";
+import nortonsaintgobainlogo from "../Assert/Abrasive Logo/norton-saint-gobain-logo.png";
 
 const products = [
   { name: "4 Make Grinding Wheel", image: makegrindingwheel },
@@ -51,10 +51,10 @@ const products = [
 ];
 
 const brands = [
-  { image: stanleyLogo, alt: "Stanley" },
-  { image: kingtonyLogo, alt: "King Tony" },
-  { image: tapariaLogo, alt: "Taparia" },
-  { image: pyeLogo, alt: "PYE Hand Tools" },
+  { image: boschlogo, alt: "boschlogo" },
+  { image: cumilogo, alt: "cumilogo" },
+  { image: hitachilogo, alt: "hitachilogo" },
+  { image: nortonsaintgobainlogo, alt: "nortonsaintgobainlogo" },
 ];
 
 const WeldingMachine = () => {

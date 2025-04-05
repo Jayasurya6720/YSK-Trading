@@ -2,46 +2,48 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./PowerTools.css";
 
-import mmbradpointdrilling from "../Assert/Machine tools/2-4-mm-brad-point-drilling .jpg";
-import MilingMachineTools from "../Assert/Machine tools/25-mm-2-Milling-Machine-Tools.png";
-import arborthada from "../Assert/Machine tools/arbor-thada.png";
-import CrMo4machinetools from "../Assert/Machine tools/CrMo4-machine-tools.webp";
-import hurcomachinetoolsbmt55er25 from "../Assert/Machine tools/hurco-machine-tools-bmt-55-er25.png";
-import newkalsi from "../Assert/Machine tools/new-kalsi .jpeg";
-import sschromefinishgolisodacapping from "../Assert/Machine tools/ss-chrome-finish-goli-soda-capping .jpg";
-import SS304machinetoolcoolers from "../Assert/Machine tools/SS304-machine-tool-coolers.png";
-import standardechain from "../Assert/Machine tools/standard-echain.png";
-import turninginsertmildsteelEIFCO from "../Assert/Machine tools/turning-insert-mild-steel-EIFCO.png";
+import annularcutters from "../Assert/machine tools2/annular-cutters.jpg";
+import burrcutter from "../Assert/machine tools2/burr-cutter.png";
+import chamfering from "../Assert/machine tools2/chamfering.jpeg";
+import cutters from "../Assert/machine tools2/cutters.png";
+import drillbits from "../Assert/machine tools2/drill-bits.png";
+import groovingtools from "../Assert/machine tools2/grooving-tools.png";
+import millingtools from "../Assert/machine tools2/milling-tools.jpg";
+import reamers from "../Assert/machine tools2/reamers.png";
+import tapset from "../Assert/machine tools2/tap-set.jpg";
+import threadingdies from "../Assert/machine tools2/threading-dies.jpg";
 
 
 
 
 
-import stanleyLogo from "../Assert/stanley.png";
-import kingtonyLogo from "../Assert/kingtony.png";
-import tapariaLogo from "../Assert/taparia.png";
-import pyeLogo from "../Assert/pye.png";
+
+import addisonlogo from "../Assert/Machine-tools-logo/addison_logo.jpeg";
+import mirandalogo from "../Assert/Machine-tools-logo/miranda-logo.png";
+import totemlogo from "../Assert/Machine-tools-logo/totem-logo.jpeg";
+
 
 const products = [
-  { name: "2-4-mm Brad Point Drilling", image: mmbradpointdrilling },
-  { name: "25-mm-2 Milling Machine Tools", image: MilingMachineTools },
-  { name: "Arbor Thada", image: arborthada },
-  { name: "CrMo4 Machine Tools", image: CrMo4machinetools },
-  { name: "Hurco Machine Tools Bmt 55 Er25", image: hurcomachinetoolsbmt55er25 },
-  { name: "New Kalsi", image: newkalsi },
-  { name: "SS Chrome Finish Goli Soda Capping", image: sschromefinishgolisodacapping },
-  { name: "SS304 Machine Tool Coolers", image: SS304machinetoolcoolers },
-  { name: "Standard Echain", image: standardechain },
-  { name: "Turning Insert Mild Steel EIFCO", image: turninginsertmildsteelEIFCO },
+  { name: "Annular Cutters", image: annularcutters },
+  { name: "Burr Cutter", image: burrcutter },
+  { name: "Chamfering", image: chamfering },
+  { name: "Cutters", image: cutters },
+  { name: "Drill Bits", image: drillbits },
+  { name: "Grooving Tools", image: groovingtools },
+  { name: "Milling Tools", image: millingtools },
+  { name: "Reamers", image: reamers },
+  { name: "Tap Set", image: tapset },
+  { name: "Threading Dies", image: threadingdies },
+
  
 
 ];
 
 const brands = [
-  { image: stanleyLogo, alt: "Stanley" },
-  { image: kingtonyLogo, alt: "King Tony" },
-  { image: tapariaLogo, alt: "Taparia" },
-  { image: pyeLogo, alt: "PYE Hand Tools" },
+  { image: addisonlogo, alt: "addisonlogo" },
+  { image: mirandalogo, alt: "mirandalogo" },
+  { image: totemlogo, alt: "totemlogo" },
+
 ];
 
 const PowerTools = () => {
