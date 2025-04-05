@@ -29,16 +29,18 @@ import RefundPolicy from "./components/Refund Policy";
 
 const App = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-      
+
 
   return (
     <Router>
-        <ScrollToTop /> 
+      <ScrollToTop />
       <div className="container">
         {/* Navbar Section */}
         <nav className="navbar">
           <div className="logo">
-            <img src={logo} alt="Logo" />
+            <Link to="/" onClick={() => setMenuOpen(false)}>
+              <img src={logo} alt="Logo" />
+            </Link>
           </div>
           {/* Hamburger Menu Button */}
           <button className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
@@ -51,7 +53,7 @@ const App = () => {
             <li><Link to="/about" onClick={() => setMenuOpen(false)}>About</Link></li>
             <li><Link to="/products" onClick={() => setMenuOpen(false)}>Categories</Link></li>
             <li className="enquiry-btn2"><Link to="/enquiry" onClick={() => setMenuOpen(false)}>Contact</Link></li>
-           
+
           </ul>
 
           <Link to="/enquiry">
@@ -75,15 +77,15 @@ const App = () => {
 
           <Route path="/power-tools" element={<PowerTools />} />
           <Route path="/welding-machine" element={<WeldingMachine />} />
-          <Route path="/industrial-products" element={<IndustrialSpecialProduct/>}/>
-          <Route path="/measuring-tools" element={<MeasuringTools/>}/>
-          <Route path="/machine-tools" element={<MechineTools/>}/>
-          <Route path="/welding-accessories" element={<WeldingAccessories/>}/>
-          <Route path="/pneumatic" element={<Pneumatic />}/>
-          <Route path="/abrasive" element={<Abrasive/>}/>
-          <Route path="/welding-electrode" element={<WeldingElectrode/>}/>
-          <Route path="/termsconditions" element={<TermsConditions/>}/>
-          <Route path="/refund-policy" element={<RefundPolicy/>}/>
+          <Route path="/industrial-products" element={<IndustrialSpecialProduct />} />
+          <Route path="/measuring-tools" element={<MeasuringTools />} />
+          <Route path="/machine-tools" element={<MechineTools />} />
+          <Route path="/welding-accessories" element={<WeldingAccessories />} />
+          <Route path="/pneumatic" element={<Pneumatic />} />
+          <Route path="/abrasive" element={<Abrasive />} />
+          <Route path="/welding-electrode" element={<WeldingElectrode />} />
+          <Route path="/termsconditions" element={<TermsConditions />} />
+          <Route path="/refund-policy" element={<RefundPolicy />} />
         </Routes>
 
         <Footer />

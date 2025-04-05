@@ -32,7 +32,7 @@ const AboutUsPage = () => {
           </p>
           <div className="buttons-container">
             <button className="back-btn1" onClick={() => navigate(-1)}>Back</button>
-            <button className="contact-btn" onClick={() => navigate("/contact")}>Contact Us</button>
+            <button className="contact-btn" onClick={() => navigate("/enquiry")}>Contact Us</button>
           </div>
         </div>
         <div className="aboutus-image">
