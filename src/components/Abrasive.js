@@ -2,9 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./Industrial-Special-Product.css";
 
-import makegrindingwheel from "../Assert/Abrasive/4_make-grinding-wheel.png";
 import cumigrindingdisc from "../Assert/Abrasive/7_cumi-grinding-disc.jpg";
-import cfwhee from "../Assert/Abrasive/14_-c_f-whee.jpg";
 import Alkonclothsandingroll from "../Assert/Abrasive/Alkon-cloth-sanding-roll.png";
 import benchgrindingwheel from "../Assert/Abrasive/bench-grinding-wheel.png";
 import cubbrush from "../Assert/Abrasive/cub-brush.png";
@@ -13,10 +11,10 @@ import flapdisc from "../Assert/Abrasive/flap-disc.png";
 import Liondrysandingsheet from "../Assert/Abrasive/Lion-dry-sanding-sheet.png";
 import mattwheel from "../Assert/Abrasive/matt-wheel.png";
 import Silkonwidesandingbelt from "../Assert/Abrasive/Silkon-wide-sanding-belt .png";
-import Tctblade from "../Assert/Abrasive/Tct-blade.png";
-import Ultrathincuttingwheel from "../Assert/Abrasive/Ultra-thin-cutting-wheel.png";
+import abrasiverolls from "../Assert/Abrasive/abrasive-rolls.png";
+import cuttingwheels from "../Assert/Abrasive/cutting-wheels.jpg";
 import Velcrosandingdisc from "../Assert/Abrasive/Velcro-sanding-disc.png";
-import wallcuttingblade from "../Assert/Abrasive/wall-cutting-blade.jpg";
+import grindingwheels from "../Assert/Abrasive/grinding-wheels.png";
 
 
 
@@ -29,21 +27,19 @@ import hitachilogo from "../Assert/Abrasive Logo/hitachi-logo.png";
 import nortonsaintgobainlogo from "../Assert/Abrasive Logo/norton-saint-gobain-logo.png";
 
 const products = [
-  { name: "4 Make Grinding Wheel", image: makegrindingwheel },
-  { name: "7 Cumi Grinding Disc", image: cumigrindingdisc },
-  { name: "14_-c_f-whee", image: cfwhee},
+  { name: "Cumi Grinding Disc", image: cumigrindingdisc },
   { name: "Alkonclothsandingroll", image: Alkonclothsandingroll},
   { name: "Bench Grinding Wheel", image: benchgrindingwheel },
   { name: "Cub Brush", image: cubbrush },
   { name: "Cut Off Wheel", image: Cutoffwheel },
   { name: "flap Disc", image: flapdisc },
-  { name: "Lion Dry Sanding Sheet", image: Liondrysandingsheet },
+  { name: "Sanding Sheet", image: Liondrysandingsheet },
   { name: "Matt Wheel", image: mattwheel },
-  { name: "Silkon Wide Sanding Belt", image: Silkonwidesandingbelt },
-  { name: "Tct Blade", image: Tctblade },
-  { name: "Ultra Thin Cutting Wheel", image: Ultrathincuttingwheel },
+  { name: "Sanding Belt", image: Silkonwidesandingbelt },
+  { name: "Abrasive Rolls", image: abrasiverolls },
+  { name: "Cutting Wheels", image: cuttingwheels },
   { name: "Velcro Sanding Disc", image: Velcrosandingdisc },
-  { name: "Wall Cutting Blade", image: wallcuttingblade },
+  { name: "Grinding Wheels", image: grindingwheels },
   
 
 
@@ -79,7 +75,7 @@ const WeldingMachine = () => {
         ))}
       </div>
 
-      <h3 className="brands-title">Our Dealers:</h3>
+      <h3 className="brands-title">We Deals:</h3>
       <div className="brands-container">
         {brands.map((brand, index) => (
           <img key={index} src={brand.image} alt={brand.alt} className="brand-logo" />

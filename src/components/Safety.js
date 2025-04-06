@@ -6,7 +6,6 @@ import cottonglove from "../Assert/Safety equipements/cotton-glove.png";
 import dangertape from "../Assert/Safety equipements/danger-tape.jpg";
 import dustmask from "../Assert/Safety equipements/dust-mask.png";
 import earplug from "../Assert/Safety equipements/ear-plug.png";
-import fireextension from "../Assert/Safety equipements/fire-extension.png";
 import rubberglove from "../Assert/Safety equipements/rubber-glove.jpg";
 import safetybelt from "../Assert/Safety equipements/safety-belt.png";
 import safetyboot from "../Assert/Safety equipements/safety-boot.png";
@@ -29,7 +28,6 @@ const products = [
   { name: "Danger Tape", image: dangertape },
   { name: "Dust Mask", image: dustmask},
   { name: "Ear Plug", image: earplug },
-  { name: "Fire Extension", image: fireextension },
   { name: "Rubber Glove", image: rubberglove },
   { name: "Safety Belt", image: safetybelt },
   { name: "Safety Boot", image: safetyboot },
@@ -71,7 +69,7 @@ const Safety = () => {
         ))}
       </div>
 
-      <h3 className="brands-title">Our Dealers:</h3>
+      <h3 className="brands-title">We Deals:</h3>
       <div className="brands-container">
         {brands.map((brand, index) => (
           <img key={index} src={brand.image} alt={brand.alt} className="brand-logo" />

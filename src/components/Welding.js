@@ -7,12 +7,15 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import weldingAccessories from "../Assert/Welding-Accessories.jfif";
 import weldingMachine from "../Assert/welding-machine-tumb.jpg";
 import weldingElectrode from "../Assert/Welding-Electrode.png";
+import gaspic from "../Assert/gas pic.webp"
 
 const allProducts = [
   
   { name: "Welding Accessories", image: weldingAccessories, path: "/welding-accessories" },
   { name: "Welding Machine", image: weldingMachine, path: "/welding-machine" },
   { name: "Welding Electrode", image: weldingElectrode, path: "/welding-electrode" },
+  { name: "Gas Accessories", image: gaspic, path: "/gas-accessories" },
+
   
 ];
 

@@ -2,11 +2,10 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./Safety.css";
 
-import anemometer from "../Assert/Measuring Tools/anemometer.jpg";
-import bevelededgesquares from "../Assert/Measuring Tools/beveled-edge-squares.jpg";
+import anglemeasurmenttool from "../Assert/Measuring Tools/angle-measurment-tool.jpg";
+import measuringwheel from "../Assert/Measuring Tools/measuring-wheel.png";
 import dialcalipers from "../Assert/Measuring Tools/dial-calipers.jpg";
 import dialtestindicators from "../Assert/Measuring Tools/dial-test-indicators.jpg";
-import digimaticblademicrometers from "../Assert/Measuring Tools/digimatic-blade-micrometers.jpg";
 import digimaticcalipers from "../Assert/Measuring Tools/digimatic-calipers.jpg";
 import digimaticdepthcalipers from "../Assert/Measuring Tools/digimatic-depth-calipers.jpg";
 import digimaticinsidepointtypecalipers from "../Assert/Measuring Tools/digimatic-inside-point-type-calipers.jpg";
@@ -32,12 +31,11 @@ import Mitutoyologo from "../Assert/Measuring Tools logo/Mitutoyo logo.png";
 import yamayologo from "../Assert/Measuring Tools logo/yamayo logo.png";
 
 const products = [
-  { name: "Anemometer", image: anemometer },
-  { name: "Beveled Edge Squares", image: bevelededgesquares },
+  { name: "Angle Measurment Tool", image: anglemeasurmenttool },
+  { name: "Measuring Wheel", image: measuringwheel },
   { name: "Dial Calipers", image: dialcalipers},
   { name: "Dial Test Indicators", image: dialtestindicators },
-  { name: "Digimatic Blade Micrometers", image: digimaticblademicrometers },
-  { name: "Digimatic Calipers", image: digimaticcalipers },
+  { name: "Vernnier Calipers", image: digimaticcalipers },
   { name: "Digimatic Depth Calipers", image: digimaticdepthcalipers },
   { name: "Digimatic Inside Point Type Calipers", image: digimaticinsidepointtypecalipers },
   { name: "Digimatic Micrometers", image: digimaticmicrometers },
@@ -85,7 +83,7 @@ const MeasuringTools = () => {
         ))}
       </div>
 
-      <h3 className="brands-title">Our Dealers:</h3>
+      <h3 className="brands-title">We Deals:</h3>
       <div className="brands-container">
         {brands.map((brand, index) => (
           <img key={index} src={brand.image} alt={brand.alt} className="brand-logo" />

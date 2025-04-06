@@ -3,17 +3,16 @@ import { useNavigate } from "react-router-dom";
 import "./Industrial-Special-Product.css";
 
 import gasweldingrod from "../Assert/Welding Electrode/gas-welding-rod.png";
-import monelenicubsupermonel from "../Assert/Welding Electrode/monel-eni-cu-b -super-monel.png";
-import nonmacinableestsupercastnmno from "../Assert/Welding Electrode/non-macinable- est- supercast-nm-no.png";
-import ss350mmelectrode from "../Assert/Welding Electrode/ss-350mm-electrode.jpg";
-import ssweldingrod from "../Assert/Welding Electrode/ss-welding-rod.png";
-import superoptimal220915 from "../Assert/Welding Electrode/super-optimal- 2209-15.png";
-import superoptimal30715 from "../Assert/Welding Electrode/super-optimal-307-15.png";
-import superoptimal316L15 from "../Assert/Welding Electrode/super-optimal-316L-15.png";
-import superoptimal6010 from "../Assert/Welding Electrode/super-optimal-6010.png";
-import superoptimal6011 from "../Assert/Welding Electrode/super-optimal-6011.png";
-import superoptimal7018 from "../Assert/Welding Electrode/super-optimal-7018.png";
-import superpowercut from "../Assert/Welding Electrode/super-power-cut.png";
+import aluminiumtigweldingrod from "../Assert/Welding Electrode/aluminium-tig-welding-rod.jpg";
+import castainweldingelectrode from "../Assert/Welding Electrode/castain-welding-electrode.png";
+import cuttingelectrode from "../Assert/Welding Electrode/cutting-electrode.png";
+import dissimilarweldingelectrode from "../Assert/Welding Electrode/dissimilar-welding-electrode.png";
+import migweldingcoil from "../Assert/Welding Electrode/mig-welding-coil.png";
+import msweldingelectrode from "../Assert/Welding Electrode/ms-welding-electrode.png";
+import ssweldingelectrode from "../Assert/Welding Electrode/ss-welding-electrode.png";
+import tigtungstenrod from "../Assert/Welding Electrode/tig-tungsten-rod.png";
+import tigweldingrod from "../Assert/Welding Electrode/tig-welding-rod.png";
+
 
 
 import bestarclogo from "../Assert/Welding Electrode Logo/bestarc-logo.png";
@@ -22,17 +21,16 @@ import superonlogo from "../Assert/Welding Electrode Logo/superon-logo.png";
 const products = [
   
   { name: "gas Welding Rod", image: gasweldingrod },
-  { name: "Monel-Eni-Cu-B Super Monel", image: monelenicubsupermonel },
-  { name: "Non-Macinable Est- Supercast-nm No", image: nonmacinableestsupercastnmno },
-  { name: "SS 350mm Electrode", image: ss350mmelectrode },
-  { name: "SS Welding Rod", image: ssweldingrod },
-  { name: "Super Optimal 2209-15", image: superoptimal220915 },
-  { name: "Super Optimal-307-15", image: superoptimal30715 },
-  { name: "Super Optimal 316L-15", image: superoptimal316L15 },
-  { name: "Super Optimal 6010", image: superoptimal6010 },
-  { name: "Super Optimal 6011", image: superoptimal6011 },
-  { name: "Super Optimal 7018", image: superoptimal7018 },
-  { name: "Super Power Cut", image: superpowercut },
+  { name: "Aluminium Tig Welding Rod", image: aluminiumtigweldingrod},
+  { name: "Castain Welding Electrode", image: castainweldingelectrode},
+  { name: "Cutting Electrode", image: cuttingelectrode },
+  { name: "Dissimilar Welding Electrode", image: dissimilarweldingelectrode },
+  { name: "Mig Welding Coil", image: migweldingcoil },
+  { name: "MS Welding Electrode", image: msweldingelectrode },
+  { name: "SS Welding Electrode", image: ssweldingelectrode },
+  { name: "Tig Tungsten Rod", image: tigtungstenrod },
+  { name: "Tig Welding Rod", image: tigweldingrod },
+  
 
 
 
@@ -67,7 +65,7 @@ const WeldingMachine = () => {
         ))}
       </div>
 
-      <h3 className="brands-title">Our Dealers:</h3>
+      <h3 className="brands-title">We Deals:</h3>
       <div className="brands-container">
         {brands.map((brand, index) => (
           <img key={index} src={brand.image} alt={brand.alt} className="brand-logo" />

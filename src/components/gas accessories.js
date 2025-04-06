@@ -2,30 +2,31 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./WeldingMachine.css";
 
-import toshonst from "../Assert/welding machines/toshon-250-st.png";
-import toshonNano from "../Assert/welding machines/toshon-arc-200-nano.jpg";
-import toshonArc200 from "../Assert/welding machines/toshon-arc-200.png";
-import plasmaweldingmashine from "../Assert/welding machines/plasma-welding-mashine.jpg";
-import midweldingmachine from "../Assert/welding machines/mid-welding-machine.png";
-import tigweldingmachine from "../Assert/welding machines/tig-welding-machine.png";
-import toshonarc400 from "../Assert/welding machines/toshon-arc-400.jpg";
-import toshonarc630 from "../Assert/welding machines/toshon-arc-630.jpg";
-import toshonare300 from "../Assert/welding machines/toshon-are-300.png";
+import cuttingtorch from "../Assert/gas accessories/cutting-torch.png";
+import flashbackarrestor from "../Assert/gas accessories/flashback-arrestor.jpg";
+import gashose from "../Assert/gas accessories/gas-hose.png";
+import heatingtorch from "../Assert/gas accessories/heating-torch.png";
+import nazzles from "../Assert/gas accessories/nazzles.jpeg";
+import pugmachine from "../Assert/gas accessories/pug-machine.png";
+import weldingregulator from "../Assert/gas accessories/welding-regulator.png";
+import weldingtorch from "../Assert/gas accessories/welding-torch.png";
+
 
 
 import toshonlogo from "../Assert/welding meachine logo/toshon-logo.png";
 
 
 const products = [
-  { name: "Toshon-250-St", image: toshonst },
-  { name: "Toshon-Arc-200-Nano", image: toshonNano },
-  { name: "Toshon-Arc-200", image: toshonArc200},
- { name: "Plasma Welding Mashine", image: plasmaweldingmashine },
- { name: "Mid Welding Machine", image: midweldingmachine},
-  { name: "Tig Welding Machine", image: tigweldingmachine },
-  { name: "Toshon-Arc-400", image: toshonarc400 },
-  { name: "Toshon-Arc-630", image: toshonarc630 },
-  { name: "Toshon-Are-300", image: toshonare300 },
+  { name: "Cutting Torch", image: cuttingtorch },
+  { name: "Flashback Arrestor", image: flashbackarrestor },
+  { name: "Gas Hose", image: gashose },
+  { name: "Heating Torch", image: heatingtorch },
+  { name: "Nazzles", image: nazzles },
+  { name: "Pug Machine", image: pugmachine },
+  { name: "Welding Regulator", image: weldingregulator },
+  { name: "Welding Torch", image: weldingtorch },
+
+  
 ];
 
 const brands = [
@@ -38,7 +39,7 @@ const WeldingMachine = () => {
 
   return (
     <div className="hand-tools-page">
-      <button className="back-btn" onClick={() => navigate(-1)}><h3><i class="bi bi-arrow-left"></i> Welding Machine</h3></button>
+      <button className="back-btn" onClick={() => navigate(-1)}><h3><i class="bi bi-arrow-left"></i> Gas Accessories</h3></button>
       <p className="description">
         Reliable and durable, our hand tools are designed for precision and ease of use. 
         From wrenches to screwdrivers, pliers to hammers, we provide high-quality tools 

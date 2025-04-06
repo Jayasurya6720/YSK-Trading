@@ -17,6 +17,14 @@ import weldinghandshield from "../Assert/welding accessories/welding-hand-shield
 import weldinghandshield2 from "../Assert/welding accessories/welding-hand-shield.png";
 import weldingholder from "../Assert/welding accessories/welding-holder.png";
 import weldingtorch from "../Assert/welding accessories/welding-torch.png";
+import antispatterspray from "../Assert/welding accessories/anti-spatter-spray.png";
+import apron from "../Assert/welding accessories/apron.png";
+import handgloves from "../Assert/welding accessories/hand-gloves.png";
+import weldinghelmet from "../Assert/welding accessories/welding-helmet.jpeg";
+
+
+
+
 
 
 
@@ -40,7 +48,12 @@ const products = [
   { name: "Welding Hand Shield", image: weldinghandshield },
   { name: "Welding Hand Shield", image: weldinghandshield2 },
   { name: "Welding Holder", image: weldingholder },
+  { name: "Anti Spatter Spray", image: antispatterspray },
+  { name: "Apron", image: apron },
+  { name: "Hand Gloves", image: handgloves },
+  { name: "Welding Helmet", image: weldinghelmet },
   { name: "Welding Torch", image: weldingtorch },
+
 
   
 ];
@@ -73,7 +86,7 @@ const WeldingMachine = () => {
         ))}
       </div>
 
-      <h3 className="brands-title">Our Dealers:</h3>
+      <h3 className="brands-title">We Deals:</h3>
       <div className="brands-container">
         {brands.map((brand, index) => (
           <img key={index} src={brand.image} alt={brand.alt} className="brand-logo" />

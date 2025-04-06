@@ -25,6 +25,7 @@ import Abrasive from "./components/Abrasive";
 import WeldingElectrode from "./components/Welding Electrode";
 import TermsConditions from "./components/Terms & Conditions";
 import RefundPolicy from "./components/Refund Policy";
+import GasAccessories from "./components/gas accessories";
 
 
 const App = () => {
@@ -86,6 +87,7 @@ const App = () => {
           <Route path="/welding-electrode" element={<WeldingElectrode />} />
           <Route path="/termsconditions" element={<TermsConditions />} />
           <Route path="/refund-policy" element={<RefundPolicy />} />
+          <Route path="/gas-accessories" element={<GasAccessories/>}/>
         </Routes>
 
         <Footer />

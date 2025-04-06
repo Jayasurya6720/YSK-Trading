@@ -47,11 +47,11 @@ const Footer = () => {
         </div>
         <div className="contact-info">
           <FaPhoneAlt className="icon" />
-          <a href="tel:+911234567890" className="phone-link">+91 1234567890</a>
+          <a href="tel:+911234567890" className="phone-link">+91 9944201158</a>
         </div>
         <div className="contact-info">
           <FaEnvelope className="icon" />
-          <a href="mailto:ysktrading@gmail.com" className="email-link">ysktrading@gmail.com</a>
+          <a href="mailto:ysktrading@gmail.com" className="email-link">ysktradingslm@gmail.com</a>
         </div>
 
       </div>

@@ -2,12 +2,14 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./Industrial-Special-Product.css";
 
-import chainsprocket from "../Assert/Industrial Special Product/chains-sprocket.png";
 import hydraulichoses from "../Assert/Industrial Special Product/hydraulic-hoses.jpg";
-import packingrope from "../Assert/Industrial Special Product/packing-rope.jpg";
-import packingsheet from "../Assert/Industrial Special Product/packing-sheet.png";
-import puhose from "../Assert/Industrial Special Product/pu-hose.png";
+import chainsandsprockets from "../Assert/Industrial Special Product/chains-and-sprockets.jpg";
+import purods from "../Assert/Industrial Special Product/pu-rods.png";
+import packingsheet from "../Assert/Industrial Special Product/packing-sheet.jpg";
+import puwheels from "../Assert/Industrial Special Product/pu-wheels.jpg";
 import sshose from "../Assert/Industrial Special Product/ss-hose.png";
+import tyrecoupling from "../Assert/Industrial Special Product/tyre-coupling.png";
+
 
 // import stanleyLogo from "../Assert/stanley.png";
 // import kingtonyLogo from "../Assert/kingtony.png";
@@ -15,12 +17,13 @@ import sshose from "../Assert/Industrial Special Product/ss-hose.png";
 // import pyeLogo from "../Assert/pye.png";
 
 const products = [
-  { name: "Chain-Sprocket", image: chainsprocket },
-  { name: "Hydraulic-Hoses", image: hydraulichoses },
-  { name: "Packing-Rope", image: packingrope},
+    { name: "Hydraulic-Hoses", image: hydraulichoses },
+  { name: "Chains And Sprockets", image: chainsandsprockets },
+  { name: "Pu Rods", image: purods},
   { name: "Packing-Sheet", image: packingsheet},
-  { name: "Pu-Hose ", image: puhose },
+  { name: "Pu Wheels", image: puwheels },
   { name: "SS-Hose", image: sshose },
+  { name: "Tyre Coupling", image: tyrecoupling },
   
 ];
 
