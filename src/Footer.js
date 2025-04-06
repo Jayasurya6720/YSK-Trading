@@ -37,13 +37,13 @@ const Footer = () => {
         <div className="contact-info">
           <FaMapMarkerAlt className="icon" />
           <a
-            href="https://www.google.com/maps/search/?api=1&query=19+Street,+Old+Bus+Stand,+Salem"
+            href="https://www.google.com/maps/search/?api=1&query=6G+GSS+Complex+DADHUBAI+KUTTAI,+DD+Rd,+Tamil+Nadu+636001"
             target="_blank"
             rel="noopener noreferrer"
             className="location-link"
           >
-            19 Street, Old Bus Stand, Salem.
-          </a>
+            YSK Trading, Tamil Nadu 636001
+            </a>
         </div>
         <div className="contact-info">
           <FaPhoneAlt className="icon" />

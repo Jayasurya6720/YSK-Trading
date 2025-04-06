@@ -14,7 +14,6 @@ import weldersgoggle from "../Assert/welding accessories/welders-goggle.png";
 import weldingcables from "../Assert/welding accessories/welding-cables.png";
 import weldingglove from "../Assert/welding accessories/welding-glove.png";
 import weldinghandshield from "../Assert/welding accessories/welding-hand-shield.jpg";
-import weldinghandshield2 from "../Assert/welding accessories/welding-hand-shield.png";
 import weldingholder from "../Assert/welding accessories/welding-holder.png";
 import weldingtorch from "../Assert/welding accessories/welding-torch.png";
 import antispatterspray from "../Assert/welding accessories/anti-spatter-spray.png";
@@ -46,7 +45,6 @@ const products = [
   { name: "Welding Cables", image: weldingcables },
   { name: "Welding Glove", image: weldingglove },
   { name: "Welding Hand Shield", image: weldinghandshield },
-  { name: "Welding Hand Shield", image: weldinghandshield2 },
   { name: "Welding Holder", image: weldingholder },
   { name: "Anti Spatter Spray", image: antispatterspray },
   { name: "Apron", image: apron },

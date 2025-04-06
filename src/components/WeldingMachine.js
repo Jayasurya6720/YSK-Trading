@@ -17,15 +17,15 @@ import toshonlogo from "../Assert/welding meachine logo/toshon-logo.png";
 
 
 const products = [
-  { name: "Toshon-250-St", image: toshonst },
-  { name: "Toshon-Arc-200-Nano", image: toshonNano },
   { name: "Toshon-Arc-200", image: toshonArc200},
+  { name: "Toshon-Arc-200-Nano", image: toshonNano },
+  { name: "Toshon-250-St", image: toshonst },
+  { name: "Toshon-Are-300", image: toshonare300 },
+  { name: "Toshon-Arc-400", image: toshonarc400 },
+  { name: "Toshon-Arc-630", image: toshonarc630 },
  { name: "Plasma Welding Mashine", image: plasmaweldingmashine },
  { name: "Mid Welding Machine", image: midweldingmachine},
   { name: "Tig Welding Machine", image: tigweldingmachine },
-  { name: "Toshon-Arc-400", image: toshonarc400 },
-  { name: "Toshon-Arc-630", image: toshonarc630 },
-  { name: "Toshon-Are-300", image: toshonare300 },
 ];
 
 const brands = [

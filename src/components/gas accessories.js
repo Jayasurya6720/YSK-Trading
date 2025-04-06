@@ -13,8 +13,9 @@ import weldingtorch from "../Assert/gas accessories/welding-torch.png";
 
 
 
-import toshonlogo from "../Assert/welding meachine logo/toshon-logo.png";
 
+import Arconlogo from "../Assert/Welding Accessories Logo/Arcon-logo.png";
+import Ashaweldlogo from "../Assert/Welding Accessories Logo/Ashaweld-logo.png";
 
 const products = [
   { name: "Cutting Torch", image: cuttingtorch },
@@ -30,7 +31,8 @@ const products = [
 ];
 
 const brands = [
-  { image: toshonlogo, alt: "toshonlogo" },
+   { image: Arconlogo, alt: "Arconlogo" },
+    { image: Ashaweldlogo, alt: "Ashaweldlogo" },
  
 ];
 
